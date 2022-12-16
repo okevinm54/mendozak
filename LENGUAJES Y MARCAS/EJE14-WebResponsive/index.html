@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang = "es - ES">
+
+<head> 
+
+<meta charset="UTF-8">
+
+<title>DAM</title>
+
+<h1 style="color: blue;">TENDENCIAS DEL SIGLO XXI</h1>
+
+<style type="text/css">
+
+		@import "formulario.css";
+
+	</style>
+
+</head>
+
+<body background=" static/IMG/fondoJPG File.jpg" width="942px" height="948px">
+  <header> 
+   <h2 style="color: white;">GALERIA DIGITAL</h2>
+   <nav>
+    <ul type="square" style="color: white;">
+    <li><a href="CAPITULOS/capitulo1" target="_self">Tendencias</a></li>
+    <li><a href="CAPITULOS/capitulo2 " target="_self">Formularios</a></li>
+    <li><a href="CAPITULOS/capitulo3 " target="_self">Mas Info</a></li>
+  </header>
+<main>
+<h2 id="cabecera">Suscribete al boletin</h2>
+
+
+ <form>
+
+
+<fieldset>
+   <legend><b>Informacion Personal</b></legend>
+
+<label for="Nombre">Nombre</label><br>
+<input type="text" id="Nombre" name="Nombre"></br>
+
+<label for="Apellidos">Apellidos</label><br>
+<input type="text" id="Apellidos" name="Apellidos"></br>
+<label for="dni">DNI</label><br> <input type="text" name="dni" placeholder="numero y letra al final"><br>
+
+<BR>
+
+<select name="provincia">
+<optgroup label="madrid">
+<option value="a">Madrid</option>
+
+</optgroup>
+<optgroup label="Cantabria">
+    <option value="al">Santander</option>
+<optgroup label="Euskadi">
+    <option value="al">Alava</option>
+    <option value="bi">Biskaia</option>
+    <option value="g">Gipuscoa</option>
+    <optagroup label="Galicia">
+    <option value="sg">Acoruña</option>
+    <option value="so">Lugo</option>
+    <option value="sa">Crense</option>
+    <option value="va">Pontevedra</option>
+  </optgroup>
+   </select>
+</fieldset>
+
+
+<br>
+
+
+	<fieldset>
+   <legend><b>Interes en la revista</b></legend>
+
+   <label for="sexo">suscripcion</label><br>
+<input type="radio" id="hombre" name="sexo" value="hombre">
+
+<label for="hombre">Mensual</label>
+<input type="radio" id="mujer" name="sexo" value="mujer">
+<label for="mujer">Anual</label><br><br>
+
+<imput type="text">
+	¿Donde nos conociste? <br>
+   <textarea rows="6" cols="40" name="texto"></textarea>
+</fielsed>
+
+ <br>
+      <input type="submit" value="Enviar">
+   </form>
+</main>
+ </body>
+    </html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang = "es - ES">
+
+<head> 
+
+<meta charset="UTF-8">
+
+<title>DAM</title>
+
+<h1 style="color: blue;">Tarea Formularios</h1>
+
+<style type="text/css">
+
+		@import "formulario.css";
+
+	</style>
+
+</head>
+
+<body>
+
+
+<h2 id="cabecera">Suscribete al boletin</h2>
+
+
+ <form>
+
+
+<fieldset>
+   <legend><b>Informacion Personal</b></legend>
+
+<label for="Nombre">Nombre</label><br>
+<input type="text" id="Nombre" name="Nombre"></br>
+
+<label for="Apellidos">Apellidos</label><br>
+<input type="text" id="Apellidos" name="Apellidos"></br>
+<label for="dni">DNI</label><br> <input type="text" name="dni"><br>
+
+<BR>
+
+<select name="provincia">
+<optgroup label="madrid">
+<option value="a">Madrid</option>
+
+</optgroup>
+<optgroup label="castilla y leon">
+    <option value="av">avila</option>
+    <option value="bu">burgos</option>
+    <option value="l">leon</option>
+    <option value="p">palencia</option>
+    <option value="sg">segovia</option>
+    <option value="so">soria</option>
+    <option value="sa">salamanca</option>
+    <option value="va">valladolid</option>
+    <option value="za">zamora</option>
+
+</optgroup>
+  <optagroup label="comunidad de madrid">
+  <option value="s">madrid</option>
+  </optgroup>
+   </select>
+</fieldset>
+</form>
+
+<br>
+
+<form>
+	<fieldset>
+   <legend><b>Interes en la revista</b></legend>
+
+   <label for="sexo">suscripcion</label><br>
+<input type="radio" id="hombre" name="sexo" value="hombre">
+
+<label for="hombre">Mensual</label>
+<input type="radio" id="mujer" name="sexo" value="mujer">
+<label for="mujer">Anual</label><br><br>
+
+<imput type="text">
+	¿Donde nos conociste? <br>
+   <textarea rows="10" cols="40" name="texto"></textarea>
+<br>
+   <div><button> <strong>Enviar </strong></button></div>
+ </body>
+    </html>

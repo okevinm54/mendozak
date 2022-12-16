@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang = "es - ES">
+
+<head> 
+
+<meta charset="UTF-8">
+
+<title>DAM</title>
+
+<h1 style="color: blue;">Tarea Formularios</h1>
+
+<style type="text/css">
+
+		@import "formulario.css";
+
+	</style>
+
+</head>
+
+<body>
+
+
+<h2 id="cabecera">Formulario</h2>
+
+<fieldset>
+
+ <form>
+
+
+     <div><label for="texto"></label>
+         escribir el numero de serie
+     </label>
+     <input type="text" pattern="[A-Z] (5) [0-9] (3)" id="texto"
+          name="texto"placeholder="5 letras y tres numeros">
+     <input type="submit" value="enviar"><br>
+</form>
+
+     
+
+<br>
+
+
+        <div><label for="nombre">Escriba su nombre</label></div>
+        <input type="text" name="nombre" id="nombre"
+        size="8" maxlength="20">
+
+
+
+        <div><label for="nombre">Contraseña</label></div>
+        <input type="password" id="password"
+         size="8" maxlength="20">
+
+
+<br>
+         <div><p><b>sexo:</p></div>
+        <input type="Radio" Name="sexo" id="Hombre" value="H"
+        <label for="Hombre">Hombre</label></br>
+
+
+
+       <div><input type="Radio" Name="sexo" id="Mujer" value="M" checked></div>
+       <label for="Mujer">Mujer</label>
+
+
+<br>
+
+        <div><p>Descuentos:</p>
+        <label for="numerosa">Familia numerosa</label></div>
+       <input type="checkbox" name="numerosa" id="numerosa" value="numerosa"></br>
+
+
+
+
+
+      <div><label for="pension">Pensionista</label></div>
+      <input type="checkbox" name="pensionista" id="pension" value="pension"></br>
+
+
+
+
+
+     <div><label for="ne">Nececidades especiales</label></div>
+     <input type="checkbox" name="ne" id="ne" value="ne">
+
+<br>
+
+      <div><p>Elija el archivo</p></div>
+      <input type="file" name="archivo">
+
+<br>
+     <div><label for="edad">Introduzca su edad</label></div>
+     <input type="number" name="edad" id="edad">
+
+<br>
+     <div><label for="fecha_nac">fecha de nacimiento</label></div>
+     <input type="data" name="fecha_nac" id="fecha_nac">
+<br>
+
+     <div><label for="hora"></label></div>
+     <input type="time" name="hora" id="hora">
+<br>
+
+     <label for="cita"></label>
+     <input type="datetime-local" name="cita" id="cita">
+
+<br>
+
+     <label for="mes_anno">mes y año</label>
+     <input type="month" name="mes_anno" id="mes_anno">
+
+
+<br>
+     <label for="semana_anno">semana</label>
+     <input type="week" name="semana_anno" id="semana_anno">
+
+<br>
+     <label for="rango">selecciona su edad</label>
+     <input type="range" name="range" id="range">
+         <input value="30" min="10" max="67" step="1">
+
+
+    <div><button> <strong>Hazme Clic</strong></button></div>
+
+
+<br>
+
+    <br><div><label for ="provincia" id="provincia"></div>
+          Seleccione su provincia:
+
+   </label>
+   <select name="provincia">
+   <option value="av">avila</option>
+   <option value="bu">Burgos</option>
+   <option value="l">leon</option>
+   <option value="p">palencia</option>
+   <option value="sg">segovia</option>
+   <option value="so">soria</option>
+   <option value="sa">salamanca</option>
+   <option value="va">valladolid</option>
+   <option value="za">zamora</option>
+   
+   </select>
+
+<br>
+
+  
+<br><label for="provincia" id="provincia">
+    seleccione su provincia:
+</label>
+
+<select name="provincia">
+<optgroup label="cantabria">
+<option value="a">santander</option>
+
+</optgroup>
+<optgroup label="castilla y leon">
+    <option value="av">avila</option>
+    <option value="bu">burgos</option>
+    <option value="l">leon</option>
+    <option value="p">palencia</option>
+    <option value="sg">segovia</option>
+    <option value="so">soria</option>
+    <option value="sa">salamanca</option>
+    <option value="va">valladolid</option>
+    <option value="za">zamora</option>
+
+</optgroup>
+  <optagroup label="comunidad de madrid">
+  <option value="s">madrid</option>
+  </optgroup>
+   </select>
+
+</fieldset>
+
+
+<fieldset>
+   <imput type="text">
+    escribe un texto descriptivo: <br>
+   <textarea rows="10" cols="40" name="texto"></textarea>
+</fieldset>
+
+
+
+<fielset>
+
+   <legend>Datos personales</legend>
+
+<label for="nombre">nombre</label><br>
+<input type="text" id="nombre" name="nombre"></br>
+
+<label for="apellidos">apellidos</label><br>
+<input type="text" id="apellidos" name="apellidos"></br>
+
+<label for="sexo">sexo</label><br>
+<input type="radio" id="hombre" name="sexo" value="hombre">
+
+<label for="hombre">hombre</label>
+<input type="radio" id="mujer" name="sexo" value="mujer">
+<label for="mujer">mujer</label><br><br>
+</fieldset>
+</form>
+ </body>
+    </html>

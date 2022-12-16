@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Capitulo 1</title>
+  <style type="text/css">
+  footer {
+      background-color: blue;
+    }
+
+    h5 {
+      color: white;
+    }
+    div {
+      background-color: white;
+    }
+    a{background-color:white;}
+  }
+  </style>
+</head>
+<body background="../static/img/2.jpg" width="800px" height="800px">
+<header>
+  <table border="4px">
+ <tr>
+  <h1 style="color: blue;">GALERIA DIGITAL</h1>
+  <nav>
+    <b><P>Menu de navegacion</P></b>
+      <a href="../INDEX.html" target="_self">contenidos digitales</a>
+</header>
+
+<h3 style="color: blue;";>VICENT VAN GOHG</h3>
+</tr>
+</table>
+<section>
+  <table border="4px">
+<b><p>Biografia</p></b>
+<td><img src=" ../static/img/personaje1.jpg" width="200px" height="200px">
+</nav>
+  <br>
+  <td> Vincent Van Gogh nació el 30 de marzo de 1853 en Groot Zundert, Brabante Septentrional, Países Bajos. Desde niño mostró signos de un temperamento malhumorado y agitado que atormentaría sus proyectos a lo largo de toda su vida. Hijo de un pastor protestante, primero eligió orientar su vida hacia el protestantismo, convirtiéndose en predicador en Londres, estudiante de teología y evangelizador entre las poblaciones mineras de Borinage. Simpatizando con la lucha de los mineros, Van Gogh practicó la pintura, dejándonos las primeras huellas de un estilo sombrío; uno ciertamente marcado por la miseria de los mineros, pero al que también le otorgaba un sentido de urgencia e intensidad.
+
+En 1886, se trasladó a París y vivió con su hermano Theo, que dirigía una pequeña galería de pintura. Rápidamente se relacionó con los jóvenes pintores de la época, que estaban a la vanguardia de los movimientos artísticos más innovadores. Influenciado por el trabajo de los impresionistas, así como por los artistas japoneses, el estilo de Van Gogh comenzó a evolucionar. Sus colores se hicieron más vivos y sus pinceladas se refinaron al seguir las formas de los objetos que representaba. A partir de 1888, adopta los tonos claros y brillantes presentes en las pinturas de sus amigos franceses y abandona París por el sur de Francia.
+</td>
+</tr>
+  </table>
+</section>
+</tr>
+</table>
+<section>
+  <table border="4px" >
+    <tr>
+<b>OBRA</b>
+<br>
+<td><img src=" ../static/img/habitacion.jpg" width="170px" height="170px">
+<img src=" ../static/img/img2.jpg" width="170px" height="170px">
+ <td><img src=" ../static/img/img3.jpg" width="170px" height="170px">
+</tr>
+</td>
+</table>
+ </section>
+ <br>
+ <b>Informacion relevante</b>
+ <br>
+ <section>
+ <video src="../static/videos/Video1.mp4" width="240" controls></video>
+</section>
+<br>
+ <footer>
+   <h5>Lenguajes y marcas</h5>
+    <div>
+  <p>Practica I - DAM (MENDOZAK_10)</p>
+    </div>
+      <br>
+ </footer>
+    </body>
+</html>

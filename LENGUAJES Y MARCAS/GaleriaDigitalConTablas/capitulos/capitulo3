@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Capitulo 3</title>
+  <style type="text/css">
+  footer {
+      background-color: blue;
+    }
+
+    h5 {
+      color: white;
+    }
+    div {
+      background-color: white;
+    }
+    a{background-color:white;}
+  }
+  </style>
+</head>
+<body background=" ../static/img/2.jpg" width="800px" height="800px">
+<header>
+  <table border="4px">
+    <tr>
+  <h1 style="color: blue;">GALERIA DIGITAL</h1>
+  <nav>
+    <b><P>Menu de navegacion</P></b>
+    <a href="../INDEX.html" target="_self">contenidos digitales</a>
+</header>
+<h2 style="color: blue;";>BASKY</h2>
+</tr>
+</table>
+<section>
+  <table border="4px">
+    <tr>
+<b><p>Biografia</p></b>
+<td><img src=" ../static/img/personaje3.jpeg" width="200px" height="200px">
+</nav>
+  <br>
+  <td> Nacido en 1973 o 1974, creció en Bristol. Se vio implicado en el grafiti durante el boom del aerosol de esta ciudad a finales de los 80. Su trabajo, en su gran mayoría piezas satíricas sobre política, cultura pop, moralidad y etnias, combina la escritura con grafitis, estarcidos y plantillas. Su técnica de estarcido es similar a la de Blek le Rat y a la de los miembros de la banda de anarco-punk Crass. Banksy reconoció la influencia de Blek le Rat, diciendo: "Cada vez que creo que he pintado algo ligeramente original, me doy cuenta de que Blek le Rat lo hizo mejor, solo que un año antes". Sus obras se han hecho populares al ser visibles en varias ciudades del mundo, especialmente en Londres.anksy oculta su identidad real a la prensa general, a la policía y a sus seguidores, pero esto no impide que variados medios de comunicación publiquen cada cierto tiempo teorías sobre su verdadera identidad, a continuación un listado de las identidades especuladas:
+
+En una entrevista de 2003 con Simon Hattenstone de The Guardian, Banksy es descrito como "un hombre blanco, de 28 años, con vestimenta casual y despreocupada: jeans, camiseta, un diente de plata, cadena de plata y arete de plata. Parece un cruce entre Jimmy Nail y Mike Skinner de las Calles". El mismo medio describe que Banksy comenzó como artista a la edad de 14 años, fue expulsado de la escuela y estuvo en prisión por delitos menores. Según Hattenstone, "el anonimato es vital para él porque el graffiti es una actividad ilegal". También se cree que es blanco, de pelo rubio y alto. Durante 10 años a finales de la década de 1990, Banksy vivió en Easton, Bristol, y luego se mudó a Londres alrededor de 2000.
+
+
+Hombre desnudo, imagen obra de Banksy, en Park Street, Bristol, en la pared de un centro de planificación familiar. Según la consulta popular efectuada, el ayuntamiento ha decidido que esta imagen no será borrada (Visión más amplia).
+Se cree comúnmente que Banksy es Robin Cunningham, nacido el 28 de julio de 1973 en Yate, a 19 km de Bristol. Varios de los asociados y excompañeros de Cunningham en la Escuela de la Catedral de Bristol han corroborado este rumor y en 2016, un estudio encontró que la incidencia de las obras de Banksy se correlacionaba con los movimientos de Cunningham en la zona.12
+
+Según The Sunday Times, Cunningham comenzó a emplear el nombre de Robin Banks, nombre que finalmente se convirtió en Banksy. Existen dos carátulas de casete con su obra de 1993, realizadas para la banda de Bristol Mother Samosa, que llevan su firma. 
+</td>
+</tr>
+</table>
+</section>
+<table border="4px">
+  <tr>
+<section>
+<b>OBRA</b>
+<br>
+ <td><img src=" ../static/img/sameboat.jpg" width="170px" height="170px">
+
+<img src=" ../static/img/corazon.jpg" width="170px" height="170px">
+ <br>
+<img src=" ../static/img/guerrero.jpg" width="170px" height="170px">
+
+<img src=" ../static/img/lanzador.jpg" width="170px" height="170px">
+</section>
+<br>
+</td>
+</tr>
+</table>
+
+<section>
+ <b>Informacion relevante</b>
+ <br>
+ <br>
+ <video src=" ../static/videos/video3.mp4" video width="240" height="280" controls>
+ </video>
+</section>
+<br>
+
+ <footer>
+  <h5>Lenguajes y marcas</h5>
+<div>
+  <p>Practica I - DAM (MENDOZAK_10)</p>
+</div>
+  <br>
+</footer>
+</body>
+</html>
